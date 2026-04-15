@@ -1,4 +1,4 @@
-/* ===== Reset Básico ===== */
+
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +11,6 @@ body {
   color: #333;
 }
 
-/* ===== Cabeçalho ===== */
 header {
   background: #697963; /* verde musgo */
   color: #fff;
@@ -45,7 +44,7 @@ header nav ul li a:hover {
   text-decoration: underline;
 }
 
-/* ===== Submenu ===== */
+
 .submenu {
   background: #BCA88D; /* bege */
   padding: 10px;
@@ -67,7 +66,7 @@ header nav ul li a:hover {
   border-bottom: 2px solid #3c2f1c;
 }
 
-/* ===== Seção de Produtos ===== */
+
 h1 {
   text-align: center;
   margin: 30px 0 15px;
@@ -152,7 +151,7 @@ h1 {
   background: #3a4a2e;
 }
 
-/* ===== Rodapé ===== */
+
 footer {
   text-align: center;
   margin: 20px 0;
@@ -168,7 +167,7 @@ footer a:hover {
   text-decoration: underline;
 }
 
-/* ===== Responsividade ===== */
+
 @media (max-width: 768px) {
   header {
     flex-direction: column;
@@ -207,7 +206,7 @@ footer a:hover {
     padding: 10px;
   }
 }
-/* ===== Página Carrinho ===== */
+
 h1 {
   text-align: center;
   margin: 30px 0 20px;
@@ -235,7 +234,7 @@ h1 {
   color: #fff;
 }
 
-/* ===== Tabela Carrinho ===== */
+
 table {
   width: 90%;
   margin: 0 auto 40px;
@@ -269,7 +268,7 @@ table tr:nth-child(even) td {
   background: #f9f9f9;
 }
 
-/* ===== Links de Ação ===== */
+
 table td a {
   color: #697963;
   text-decoration: none;
@@ -284,7 +283,7 @@ table td a:hover {
   color: #fff;
 }
 
-/* ===== Responsividade ===== */
+
 @media (max-width: 768px) {
   table, thead, tbody, th, td, tr {
     display: block;
@@ -299,7 +298,7 @@ table td a:hover {
   }
 
   table th {
-    display: none; /* esconde cabeçalho em telas pequenas */
+    display: none; 
   }
 
   table td {
